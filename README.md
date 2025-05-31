@@ -49,7 +49,7 @@ nodemon server.js
 
 ### image1.jpg
 
-![Screenshot](./image1.jpg)
+![Screenshot](./image1.png)
 
 ### image2.png
 
