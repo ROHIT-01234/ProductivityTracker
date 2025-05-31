@@ -1,0 +1,53 @@
+#todayTab,#dailyTab,#weekTab{
+    background-color: #bad8b6;
+    color:black;
+    transition: 1s;
+}
+
+#todayTab:hover,
+#dailyTab:hover{
+    background-color: #61b390;
+}
+
+#todayTab.active {
+    background-color: #61b390 !important;
+    color: white !important;
+}
+#dailyTab.active {
+    background-color: #61b390 !important;
+    color: white !important;
+}
+
+#detailBtn,#detailBtn2{
+    background-color: #bad8b6;
+    color:#212529;
+    transition: 1s;
+}
+
+#detailBtn:hover,#detailBtn2:hover{
+    background-color: #61b390;
+    color:white;
+}
+
+#detailBtn:focus,#detailBtn2:focus,
+#detailBtn:focus-visible,#detailBtn2:focus-visible {
+    outline: 2px solid #01352c;
+    outline-offset: 2px;
+}
+
+#dateSubmit{
+    background-color: #bad8b6;
+    color:#212529;
+    transition: 1s;
+}
+
+#dateSubmit:hover{
+    background-color: #61b390;
+    color:white;
+}
+
+#dateSubmit:focus,
+#dateSubmit:focus-visible {
+    outline: 2px solid #01352c;
+    outline-offset: 2px;
+}
